@@ -1,7 +1,7 @@
 {
   "name": "impocalculo.github.io",
   "version": "0.1.0",
-  "homepage": "https://impocalculo.com.br/",
+  "homepage": "https://impocalculo.com.br",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",

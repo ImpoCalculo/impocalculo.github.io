@@ -88,8 +88,6 @@ const Board = () => {
     _target.value = "R$ " + (newValue ? newValue : valueTyped);
   }
 
-  console.log('test')
-
   return (
     <Fragment>
       <div className="_8/12 _center _bdrs5 _bdprimary _bd2 _psm _p@tabletV _plg@laptop _bglightGray _tac">
