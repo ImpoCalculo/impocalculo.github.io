@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/impocalculo.github.io/static/css/main.792031e4.chunk.css",
-    "main.js": "/impocalculo.github.io/static/js/main.1e64f9e1.chunk.js",
-    "main.js.map": "/impocalculo.github.io/static/js/main.1e64f9e1.chunk.js.map",
-    "runtime-main.js": "/impocalculo.github.io/static/js/runtime-main.3b196f15.js",
-    "runtime-main.js.map": "/impocalculo.github.io/static/js/runtime-main.3b196f15.js.map",
-    "static/js/2.87e62bbf.chunk.js": "/impocalculo.github.io/static/js/2.87e62bbf.chunk.js",
-    "static/js/2.87e62bbf.chunk.js.map": "/impocalculo.github.io/static/js/2.87e62bbf.chunk.js.map",
-    "static/js/3.cddade70.chunk.js": "/impocalculo.github.io/static/js/3.cddade70.chunk.js",
-    "static/js/3.cddade70.chunk.js.map": "/impocalculo.github.io/static/js/3.cddade70.chunk.js.map",
-    "index.html": "/impocalculo.github.io/index.html",
-    "static/css/main.792031e4.chunk.css.map": "/impocalculo.github.io/static/css/main.792031e4.chunk.css.map",
-    "static/js/2.87e62bbf.chunk.js.LICENSE.txt": "/impocalculo.github.io/static/js/2.87e62bbf.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.792031e4.chunk.css",
+    "main.js": "/static/js/main.1e64f9e1.chunk.js",
+    "main.js.map": "/static/js/main.1e64f9e1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0fd31dbb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0fd31dbb.js.map",
+    "static/js/2.87e62bbf.chunk.js": "/static/js/2.87e62bbf.chunk.js",
+    "static/js/2.87e62bbf.chunk.js.map": "/static/js/2.87e62bbf.chunk.js.map",
+    "static/js/3.cddade70.chunk.js": "/static/js/3.cddade70.chunk.js",
+    "static/js/3.cddade70.chunk.js.map": "/static/js/3.cddade70.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.792031e4.chunk.css.map": "/static/css/main.792031e4.chunk.css.map",
+    "static/js/2.87e62bbf.chunk.js.LICENSE.txt": "/static/js/2.87e62bbf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3b196f15.js",
+    "static/js/runtime-main.0fd31dbb.js",
     "static/js/2.87e62bbf.chunk.js",
     "static/css/main.792031e4.chunk.css",
     "static/js/main.1e64f9e1.chunk.js"
