@@ -1,0 +1,17 @@
+.c-Logo h1 {
+  font-family: "Grenze Gotisch", cursive;
+}
+
+.c-Board__Inputs input[type="number"]::-webkit-outer-spin-button,
+.c-Board__Inputs input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.c-Board__Inputs input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.c-Board__Inputs input,
+.c-Board__Inputs button {
+  border: solid 1px lightgray;
+}
