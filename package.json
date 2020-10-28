@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "pStart": "npm tun pWatch & npm run start",
+    "pStart": "npm run pWatch & npm run start",
     "build": "react-scripts build",
     "predeploy": "npx prettier --write ./src && npm run build",
     "deploy": "npm run predeploy && gh-pages -d build && git push",

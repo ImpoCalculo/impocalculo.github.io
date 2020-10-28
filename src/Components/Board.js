@@ -14,6 +14,8 @@ const Board = () => {
       .replace(/,/g, ".");
     valorBem = parseFloat(valorBem);
 
+    var numPessoas = document.querySelector("#numPessoas").value;
+
     var umPorc = 0;
 
     var vinteSubtrai = valorBem - 20000;
@@ -98,17 +100,27 @@ const Board = () => {
           transmissão causa mortis ou a doação de quaisquer bens ou direitos,
           conforme Constituição Federal - artigo 155, I e § 1º.
         </div>
-        <form
-          className="c-Board__Inputs _pvsm _df@tabletV _jcc _aic"
-          onSubmit={(e) => calcITCMD(e)}
-        >
-          <div>Qual o valor do bem?</div>
-          <input
-            onInput={(e) => maskDinheiro(e)}
-            defaultValue="R$ "
-            id="valorBem"
-            className="_mhxs _mvxxs _mv0@tabletV _bdrs5 _pxxs"
-          />
+        <form className="c-Board__Inputs _pvsm" onSubmit={(e) => calcITCMD(e)}>
+          <div class="_df@tabletV _jcc">
+            <div class="_mhxxs">
+              <div>Qual o valor do bem?</div>
+              <input
+                onInput={(e) => maskDinheiro(e)}
+                defaultValue="R$ "
+                id="valorBem"
+                className="_mtxxs _mbxs _bdrs5 _pxxs"
+              />
+            </div>
+            <div class="_mhxxs">
+              <div>Para quantas pessoas?</div>
+              <input
+                placeholder="1"
+                type="number"
+                id="numPessoas"
+                className="_mtxxs _mbxs _bdrs5 _pxxs"
+              />
+            </div>
+          </div>
           <div>
             <button className="_bdrs5 _pvxxs _phxs" type="submit">
               Calcular
